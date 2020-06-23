@@ -9,7 +9,7 @@ Deploy kubernetes on a 3 node digital-ocean cluster using Ansible.
 - Create 3 droplets on digital-ocean (ubuntu 16+ / 1gig ram / any region)
 - Create an ssh-keypair. By default, `initial.yml` assumes the public key on your local machine is stored at `~/.ssh/id_rsa.pub`
 - Add the key: `ssh-add ~/.ssh/id_rsa`
-- Install ansible (`ansible-playbook`) on your local machine
+- Install [ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) (`ansible-playbook`) on your local machine
 
 ### Configure hosts
 
